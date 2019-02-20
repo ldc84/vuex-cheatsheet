@@ -8,14 +8,18 @@
     "build": "vue build -c build.config.js --dist './docs/' --prod ./src/index.js",
     "compile": "yarn dist -- --disable-compress"
   },
-  "keywords": ["vue", "vuex", "cheatsheet"],
+  "keywords": [
+    "vue",
+    "vuex",
+    "cheatsheet"
+  ],
   "author": "Marcos Neves <marcos.neves@gmail.com> (https://medium.com/vuejs-tips)",
   "license": "MIT",
   "dependencies": {
     "clipboard": "^1.6.1",
     "minireset.css": "^0.0.2",
     "prismjs": "^1.6.0"
-  }
+  },
   "devDependencies": {
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
